@@ -89,21 +89,6 @@
   | - TodoListItemButton.vue
   ```
 
-- Prop 이름은 camelCase로 작성하지만 JSX에서는 kebob-case를 사용해야 한다. 
-
-  - 좋은 예
-
-  ```
-  // declare
-  props: {
-    greetingText: String
-  }
-  ```
-
-  ```
-  < WelcomeMessage  greeting-text = "hi" />
-  ```
-
 - 플로그인, mixing 등에서 커스텀 사용자 private 프로퍼티에는 항상 접두사 ``$_``를 사용하고, 다른 사람의 코드와 충돌을 피하려면 named scope를 포함한다. 
 
   - 좋은 예 
