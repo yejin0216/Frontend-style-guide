@@ -1,5 +1,35 @@
 ### Naming Convention
 
+- 변수 이름은 *camelCase*의 명사로 작성한다.
+
+  - 좋은 예
+
+  ```
+  let loginId; 
+  let loginPwd; 
+  ```
+
+- 함수 이름은 *camelCase*의 동사로 작성한다.
+
+  - 좋은 예
+  
+  ```
+  const login = () => {
+    //...
+  }
+  const getAccessToken = () => {
+    //...
+  }
+  ```
+  
+- 상수는 대문자의 *Underscore Notation*로 작성한다. 
+
+  - 좋은 예
+
+  ```
+  const LOGIN_ACCESS_TOKEN;
+  ```
+
 - root 컴포넌트인 ``App`` 컴포넌트를 제외한 컴포넌트 이름은 항상 합성어를 사용한다.
 
   - 좋은 예
