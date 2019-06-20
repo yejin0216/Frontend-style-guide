@@ -1,4 +1,4 @@
-### Naming Convention
+### Vuejs Naming Convention
 
 - 변수 이름은 *camelCase*의 명사로 작성한다.
 
