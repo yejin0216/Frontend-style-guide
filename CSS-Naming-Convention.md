@@ -7,18 +7,16 @@
   ```
   $font-color = #000000;
   ```
-
--  `{Block}__{Element}--{modifier}` 순으로 작성한다. (*BEM* 참고)
+  
+- `{Block}__{Element}--{modifier}` 순으로 작성한다. (*BEM* 참고)
 
   - 좋은 예
-
+  
   ```
   .login__modal { //.. }
   .login__modal--active { //.. }
-  ```
-
+  ```  
   ```
   .nav__button { //.. }
   .nav__button--disable { //.. }
   ```
-
