@@ -17,7 +17,7 @@
   $font-color = #000000;
   ```
   
-- `{Block}__{Element}--{modifier}` 순이며 소문자이다. (*BEM* 참고)
+- `{Block}__{Element}--{Modifier}` 순이며 소문자이다. (*BEM* 참고)
 
   - 좋은 예
   
